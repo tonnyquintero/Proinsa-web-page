@@ -4,8 +4,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className={styles['segundo']}>
-        <h1>Aqui va el about</h1>
+    <div >
+        <h1 className={styles['segundo']}>Sobre Nosotros</h1>
     </div>
   )
 }

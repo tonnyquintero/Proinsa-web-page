@@ -15,7 +15,7 @@ const Nav = () => {
               <h2>
                 Ubicación<span>-&gt;</span>
               </h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>Encuentranos rápidamente es más fácil de lo que crees</p>
             </a>
     
             <a
@@ -27,7 +27,7 @@ const Nav = () => {
               <h2>
                 Servicios <span>-&gt;</span>
               </h2>
-              <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+              <p>Conoce nuestro amplio catalogo de servicios y elige el de tu preferencia</p>
             </a>
     
             <a
@@ -39,7 +39,7 @@ const Nav = () => {
               <h2>
                 Blog <span>-&gt;</span>
               </h2>
-              <p>Explore the Next.js 13 playground.</p>
+              <p>Un espacio informativo para aquellos que se interesan en lo que hacemos.</p>
             </a>
     
             <a
@@ -52,7 +52,7 @@ const Nav = () => {
                 Contacto <span>-&gt;</span>
               </h2>
               <p>
-                Instantly deploy your Next.js site to a shareable URL with Vercel.
+                Estamos atentos a lo que necesites, no dudes en contactarnos
               </p>
             </a>
           </div>

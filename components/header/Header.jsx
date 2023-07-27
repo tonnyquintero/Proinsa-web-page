@@ -1,13 +1,26 @@
+import React from 'react'
+import Image from 'next/image';
+import HeaderSocials from './HeaderSocials';
+import Logo from '../../assets/logo en blanco.png';
 import styles from '../../styles/header.module.css';
 
-import React from 'react'
 
 const Header = () => {
   return (
-    <div className={styles['primero']}>
-        <h1>Proinsa Clinica Odontologica</h1>
-        <h2>Aqui va el header</h2>
+    <>
+    <HeaderSocials />
+    
+      <div className={styles['header']}>
+        <h1 className={styles['titulo']}>Bienvenidos a</h1>
+        <Image src={Logo} width={400} height={200} alt='logo' />
+        <div className={styles.cta}>
+        <a href='#contact' className={styles['btn']}>Pide tu Cita</a>
+        <a href='#portfolio' className={styles['btn-primary']}>Servicios</a>
+    </div>
+        
         </div>
+        
+    </>
   )
 }
 
