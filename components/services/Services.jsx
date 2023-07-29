@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import styles from '../../styles/services.module.css';
 
 import Image from 'next/image';
@@ -22,7 +22,7 @@ const data = [
     title: 'Blanqueamiento Dental',
     image: Store,
     gitHub: 'https://github.com/tonnyquintero/nextstore',
-    deploy: '/portafolio'
+    deploy: 'Consiste en eliminar las manchas intrínsecas y extrínsecas en la superficie dentaria'
   },
 
   {
@@ -30,7 +30,7 @@ const data = [
     title: 'Urgencias Odontológicas',
     image: Task,
     gitHub: 'https://github.com/tonnyquintero/Task-Machine',
-    deploy: '/ficha1'
+    deploy: 'Acudimos a la acción de inmediato '
   },
 
   {
@@ -38,7 +38,7 @@ const data = [
     title: 'Rayos X Periapicales',
     image: Travel,
     gitHub: 'https://github.com/tonnyquintero/tonnys-travel',
-    deploy: '/conductor'
+    deploy: 'Mediante la colocación de placas radiológicas de diferente tamaño estudiamos uno o más dientes'
   },
 
   {
@@ -46,55 +46,55 @@ const data = [
     title: 'Odontología General y Estética',
     image: Rick,
     gitHub: 'https://github.com/tonnyquintero/Rick-and-Morty-Api',
-    deploy: '/alturas'
+    deploy: 'Se especializa en interceptar el avance de un proceso infeccioso para evitar la destrucción de cualquier zona estructural dentaria'
   },
   {
     id: 6,
     title: 'Cirugía Oral',
     image: Toscana,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Cualquier procedimiento quirúrgico en la boca y la mandíbula o alrededor de estas'
   },
   {
     id: 7,
     title: 'Endodoncia',
     image: Toscana1,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Tiene como finalidad preservar las piezas dentales dañadas, evitando así su pérdida'
   },
   {
     id: 8,
     title: 'Ortopedia y Odontopediatría',
     image: Toscana2,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Tratamos tambien a los más pequeños de la casa'
   },{
     id: 9,
     title: 'Ortodoncia',
     image: Toscana3,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Se encarga de estudiar, prevenir y corregir las alteraciones en el desarrollo de las piezas dentales'
   },
   {
     id: 10,
     title: 'Periodoncia',
     image: Toscana4,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Trata las enfermedades de las encías y del hueso que sostiene los dientes'
   },
   {
     id: 11,
     title: 'Protesis Removible y Fija',
     image: Toscana5,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Restauración artificial parcial o total de la anatomía de la boca'
   },
   {
     id: 12,
     title: 'Productos de Higiene Oral',
     image: Toscana6,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: '/manipulacion'
+    deploy: 'Pregunta por los productos certificados y recomendados por nuestros profesionales'
   },
 ]
 
@@ -120,7 +120,7 @@ const Portfolio = () => {
                 </div>
               <h3 className={styles['h3']}>{title}</h3>
               <div className={styles["portfolio_item-cta"]}>
-                <a href={deploy} className={styles['btn']} >Conoce más</a>
+                <p className={styles['parrafo']}>{deploy} </p>
               </div>
               </article>
             )

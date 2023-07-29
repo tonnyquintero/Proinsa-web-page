@@ -301,7 +301,13 @@
 @media screen and (max-width: 600px) {
     .header {
       height: 45vh;  
-      padding-top: 2.5rem;
+      padding-top: 0.5rem;
+    }
+    .sonrisa1 {
+        display: none;
+    }
+    .sonrisa2 {
+        display: none;
     }
     .scroll_down {
         display: none;

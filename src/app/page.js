@@ -6,7 +6,7 @@ import Services from '../../components/services/Services';
 const NoSSR = dynamic(() => import('../../components/contact/Contact'), { ssr: false })
 const NoSSR2 = dynamic(() => import('../../components/blog/Blog'), { ssr: false })
 
-
+import Wbutton from '../../components/whatsapp/Wbutton';
 import Footer from '../../components/footer/Footer';
 import styles from '../app/page.module.css';
 
@@ -14,8 +14,8 @@ import styles from '../app/page.module.css';
 export default function Home() {
   return ( 
     <>
-   
     <Nav />
+    <Wbutton />
     <main className={styles.main}>
     <Header />
     <About />

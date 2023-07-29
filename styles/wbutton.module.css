@@ -1,0 +1,47 @@
+.boton {
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    gap: 1rem;
+    right: 0;
+    padding-right: 2rem;
+    /* top: 0; */
+    bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.botoncito {
+    border-radius: 50%;
+}
+
+.button {
+    background-color: #20ff4b;
+    width: 7rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.divMessage {
+    background-color: white;
+    border-radius: 15%;
+    width: 6rem;
+    height: 5rem;
+    border: solid 1px #00BFFF;
+    
+}
+
+.divMessage p {
+    color: black;
+    padding: 7px; 
+    font-size: small;
+}
+
+/* Mobile */
+@media (max-width: 700px) { 
+    .divMessage { 
+        display: none;
+    }
+    
+}

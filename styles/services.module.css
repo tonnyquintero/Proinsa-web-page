@@ -10,6 +10,11 @@
     padding-top: 1rem;
 }
 
+.parrafo {
+    padding-top: 0.5rem;
+    font-size: small;
+}
+
 .btn {
     width: max-content;
     display: inline-block;
@@ -77,5 +82,11 @@
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .ontainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+        width: 75%;  
     }
 }

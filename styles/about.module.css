@@ -23,7 +23,7 @@
     border-radius: 0.4rem;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid #00BFFF;
+    border: 1px solid var(--color-primary);
     transition: var(--transition);
     background: #00BFFF;
     color: var(--color-bg);
@@ -139,13 +139,14 @@
         margin: 0 auto 3rem;
     }
     .about_cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 2rem;
         gap: 1rem;
     }
     .about_content {
         text-align: center;
     }
     .about_content p {
-        margin: 1.5rem 0;
+        display: none;
     }
 }

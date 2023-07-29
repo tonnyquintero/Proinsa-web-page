@@ -14,9 +14,9 @@ const Header = () => {
     
       <div className={styles['header']}>
 
-        <Image src={cover1} width={400} height={250} alt='logo' />
-        <Image src={Logo} width={300} height={200} alt='logo' />
-        <Image src={cover} width={400} height={250} alt='logo' />
+        <Image className={styles['sonrisa1']} src={cover1} width={400} height={250} alt='logo' />
+        <Image className={styles['logo']} src={Logo} width={300} height={200} alt='logo' />
+        <Image className={styles['sonrisa2']}  src={cover} width={400} height={250} alt='logo' />
         <div className={styles.cta}>
         <a href='#contact' className={styles['btn']}>Pide tu Cita</a>
         <a href='#portfolio' className={styles['btn-primary']}>Servicios</a>
