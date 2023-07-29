@@ -28,9 +28,14 @@ const About = () => {
           </article>
         </div>
         <p>
-          Somos una Clínica
+        Somos una clínica con más de 30 años al servicio de todos y todas, 
+        nuestro equipo de profesionales altamente calificados y con amplia experiencia está dedicado a brindar la más alta calidad en servicios odontológicos.
+         Nuestra misión es ayudar a nuestros pacientes a lograr una sonrisa saludable, hermosa y duradera, mediante tratamientos personalizados y avanzadas técnicas, 
+         siempre adaptándonos a las últimas innovaciones en el campo de la odontología.
         </p>
+        <div className={styles['thebtn']}>
         <a href='#contact' className={styles['about_button']}>Hablemos</a>
+        </div>
       </div>
       
         </div>

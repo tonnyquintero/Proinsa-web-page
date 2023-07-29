@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../../styles/footer.module.css';
+import Image from 'next/image';
+import logo from '../../assets/logo.png'
 
 
 import {FiInstagram} from 'react-icons/fi';
@@ -16,7 +18,9 @@ const Footer = () => {
 
   return (
     <footer className={styles['footer']}>
-      <a href='#' className={styles.footer_logo}>PROINSA &copy;</a>
+      <Image src={logo} width={150} height={80} alt='logo' />
+      <p>Estamos ubicados en carrera 52 N 95 - 91 San Isidro <br>
+      </br>Te esperamos desde las 7 a.m. en adelante</p>
 
       <ul className={styles['permalinks']}>
         <li><a href='#'>Inicio</a></li>
@@ -25,11 +29,11 @@ const Footer = () => {
         <li><a href='#testimonials'>Blog</a></li>
         <li><a href='#contact'>Contacto</a></li>
       </ul>
-
+      <p>Siguenos en nuestras redes sociales</p>
       <div className={styles.footer_socials}>
-        <a href='https://www.facebook.com/susmedicosips' target='blank'><BsFacebook /></a>
-        <a href='https://www.instagram.com/sus.medicos/' target='blank'><FiInstagram /></a>
-        <a href='https://www.linkedin.com/company/sus-m%C3%A9dicos/' target='blank'><BsLinkedin /></a>
+        <a href='https://www.facebook.com/profile.php?id=100094323549257' target='blank'><BsFacebook /></a>
+        <a href='https://www.instagram.com/proinsa.clinica.odontologica/' target='blank'><FiInstagram /></a>
+        <a href='https://www.linkedin.com/company/proinsa-clínica-odontológica/' target='blank'><BsLinkedin /></a>
       </div>
 
       <div className={styles['tonny-div']}>

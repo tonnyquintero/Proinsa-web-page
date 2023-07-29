@@ -11,6 +11,10 @@
     padding-bottom: 3rem;
 }
 
+.thebtn {
+    padding-left: 2rem;
+}
+
 .about_button {
     width: max-content;
     display: inline-block;
@@ -19,16 +23,16 @@
     border-radius: 0.4rem;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid #00BFFF;
     transition: var(--transition);
     background: #00BFFF;
     color: var(--color-bg);
 }
 
 .about_button:hover {
-    background: #BA55D3;
-    color: var(--color-bg);
-    border-color: transparent;
+    background: white;
+    color: #00BFFF;
+    border-color: #00BFFF;
 }
 
 .about_me {
@@ -67,6 +71,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    margin-left: 2rem;
 }
 
 .about_card {
@@ -95,16 +100,19 @@
 
 .about_card h5 {
     font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .about_card small {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
     color: #00BFFF
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem;
+    margin: 3rem 2rem 2.6rem;
     color: gray;
+    font-size: 1.3rem;
 }
 
 .h5 {

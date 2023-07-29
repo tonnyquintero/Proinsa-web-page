@@ -7,10 +7,10 @@ const Nav = () => {
         
           <div className={styles.grid}>
             <a
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+              href='https://www.google.com/maps/place/Proinsa+San+Isidro/@6.2882591,-75.5627067,15z/data=!4m6!3m5!1s0x8e44292f6403a685:0x2835864fd80e665c!8m2!3d6.2882591!4d-75.5627067!16s%2Fg%2F11fkbyx8tn?entry=ttu'
               className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='blank'
+
             >
               <h2>
                 Ubicación<span>-&gt;</span>
@@ -19,10 +19,9 @@ const Nav = () => {
             </a>
     
             <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+              href='#portfolio'
               className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
+
             >
               <h2>
                 Servicios <span>-&gt;</span>
@@ -31,10 +30,9 @@ const Nav = () => {
             </a>
     
             <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+              href='#testimonials'
               className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
+
             >
               <h2>
                 Blog <span>-&gt;</span>
@@ -43,10 +41,9 @@ const Nav = () => {
             </a>
     
             <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+              href='#contact'
               className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
+
             >
               <h2>
                 Contacto <span>-&gt;</span>

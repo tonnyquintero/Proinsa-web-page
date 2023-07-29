@@ -38,20 +38,20 @@ const Contact = () => {
               <MdOutlineEmail className={styles['contact_option-icon']} />
               <h4>Email</h4>
               <h5>⬇️⬇️⬇️</h5>
-              <a className={styles['clasa']} href="mailto:mercadeosusmedicos2015@gmail.com" target="_blank" rel='noreferrer'>Envianos un mensaje</a>
+              <a className={styles['clasa']} href="mailto:proinsacomunicaciones@gmail.com" target="_blank" rel='noreferrer'>Envianos un mensaje</a>
             </article>
 
             <article className={styles['contact_option']}>
               <RiMessengerLine className={styles['contact_option-icon']} />
               <h4>Messenger</h4>
               <h5>Proinsa</h5>
-              <a className={styles['clasa']} href="https://m.me/susmedicos.12" target="_blank" rel='noreferrer'>Envianos un mensaje</a>
+              <a className={styles['clasa']} href="https://www.facebook.com/messages/t/105684559251580" target="_blank" rel='noreferrer'>Envianos un mensaje</a>
             </article>
 
             <article className={styles['contact_option']}>
               <BsWhatsapp className={styles['contact_option-icon']} />
               <h4>Whatsapp</h4>
-              <h5>+573113725399</h5>
+              <h5>+573172388777</h5>
               <a className={styles['clasa']} href="https://api.whatsapp.com/send?phone=573172388777" target="_blank" rel='noreferrer'>Envianos un mensaje</a>
             </article>
           </div>
