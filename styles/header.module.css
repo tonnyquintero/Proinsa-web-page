@@ -1,5 +1,5 @@
 .header {
-    height: 68vh;
+    height: 60vh;
     padding-top: 2rem;
     overflow: hidden;
 }
@@ -8,6 +8,7 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    color: 	#00BFFF
 }
 
 
@@ -21,9 +22,9 @@
 }
 
 .cta {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
-    gap: 4rem;
+    gap: 5rem;
     justify-content: center;
 }
 
@@ -39,8 +40,8 @@
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    top: 19rem;
-    padding-left: 14rem;
+    top: 12rem;
+    padding-left: 4rem;
 } 
 
 .header_socials2 {
@@ -50,8 +51,8 @@
     gap: 0.8rem;
     position: absolute;
     right: 0;
-    top: 19rem;
-    padding-right: 14rem;
+    top: 12rem;
+    padding-right: 4rem;
 } 
 
 .header_socials::after {
@@ -258,18 +259,18 @@
 .btn {
     width: max-content;
     display: inline-block;
-    color: #00CED1;
+    color: #00BFFF;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid #00BFFF;
     transition: var(--transition);
     background-color: white;
   }
   
   .btn-primary {
-    background: var(--color-primary);
+    background: #00BFFF;
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
