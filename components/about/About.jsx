@@ -1,9 +1,25 @@
+'use client'
+import React from 'react'
 import styles from '../../styles/about.module.css';
 import {FaAward} from 'react-icons/fa';
-import {FiUsers} from 'react-icons/fi';
-import {VscFolderLibrary} from 'react-icons/vsc';
+import {LiaGrinBeamSolid} from 'react-icons/lia';
+import {FiThumbsUp} from 'react-icons/fi';
+import { useSpring, animated } from '@react-spring/web'
 
-import React from 'react'
+
+function Number ({ n }) {
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: n,
+    delay: 500,
+    config: { mass: 1, tension: 20, friction: 10 },
+  })
+  return (
+    <animated.div>{number.to((n) => n.toFixed(0)) }</animated.div>
+  )
+}
+
+
 
 const About = () => {
   return (
@@ -14,17 +30,39 @@ const About = () => {
           <article className={styles.about_card}>
             <FaAward className={styles.about_icon}/>
             <h5>Experiencia</h5>
-            <small>+ 30 años</small>
+            <div className={styles['animated']}>
+            <small>
+              +
+            </small>
+            <small>
+              <Number n={30} />
+              Años
+            </small>
+            </div>
           </article>
           <article className={styles.about_card}>
-            <FiUsers className={styles.about_icon}/>
-            <h5>Clientes</h5>
-            <small>+ 3.000</small>
+            <LiaGrinBeamSolid className={styles.about_icon}/>
+            <h5>Sonrisas</h5>
+            <div className={styles['animated']}>
+            <small>
+              +
+            </small>
+            <small>
+              <Number n={300000} />
+            </small>
+            </div>
           </article>
           <article className={styles.about_card}>
-            <VscFolderLibrary className={styles.about_icon}/>
-            <h5 >Empresas</h5>
-            <small >+ 300</small>
+            <FiThumbsUp className={styles.about_icon}/>
+            <h5 >Calidad</h5>
+            <div className={styles['animated']}>
+            <small>
+            <Number n={100} />
+            </small>
+            <small>
+              %
+            </small>
+            </div>
           </article>
         </div>
         <p>

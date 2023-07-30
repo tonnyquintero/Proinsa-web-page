@@ -1,10 +1,11 @@
 import dynamic from 'next/dynamic'
 import Nav from '../../components/nav/Nav';
 import Header from '../../components/header/Header';
-import About from '../../components/about/About';
 import Services from '../../components/services/Services';
 const NoSSR = dynamic(() => import('../../components/contact/Contact'), { ssr: false })
 const NoSSR2 = dynamic(() => import('../../components/blog/Blog'), { ssr: false })
+const NoSSR3 = dynamic(() => import('../../components/about/About'), { ssr: false })
+
 
 import Wbutton from '../../components/whatsapp/Wbutton';
 import Footer from '../../components/footer/Footer';
@@ -18,7 +19,7 @@ export default function Home() {
     <Wbutton />
     <main className={styles.main}>
     <Header />
-    <About />
+    <NoSSR3 />
     </main>
     <Services />
     <NoSSR2 />

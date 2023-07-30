@@ -5,6 +5,11 @@
 
 }
 
+.animated {
+    display: flex;
+    padding-left: 3rem;
+}
+
 .titulin {
     color: #00BFFF;
     text-align: center;
@@ -70,7 +75,7 @@
 .about_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 8rem;
     margin-left: 2rem;
 }
 
@@ -100,12 +105,12 @@
 
 .about_card h5 {
     font-size: 1.5rem;
-    padding-bottom: 1rem;
 }
 
 .about_card small {
     font-size: 1.5rem;
     margin-top: 1rem;
+    font-weight: 800;
     color: #00BFFF
 }
 
