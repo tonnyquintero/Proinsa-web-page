@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Proinsa Clínica Odontológica',
-  description: 'Clínica Odontológica ubicada en Medellin Colombia',
+  description: 'Clínica Odontológica ubicada en San Isidro, Medellin Colombia',
 }
 
 export default function RootLayout({ children }) {
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <Head>
         <title>Proinsa Clínica Odontológica</title>
-        <meta name="description" content="Clínica Odontológica ubicada en San Isidro, medellin, Colombia" />
+        <meta name="description" content="Clínica Odontológica ubicada en San Isidro, medellin Colombia" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
