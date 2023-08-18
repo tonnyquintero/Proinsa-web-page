@@ -19,17 +19,18 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    image: deporte,
+    title: 'Salud Bucodental y rendimiento deportivo',
+    review: 'Querida comunidad, sean bienvenidos(as) a nuestro espacio informativo, el blog recomendado por nuestros profesionales, a lo largo de este trayecto que apenas empieza traeremos a la mesa temas relacionados a la salud bucodental y algo más. Siendo difusores de la actividad física para la salud nuestro tópico trata sobre la salud bucodental y el rendimiento deportivo...',
+    link: 'https://proinsa-tech.blogspot.com/2023/08/salud-bucodental-y-rendimiento-deportivo.html'
+  },
+  {
     image: importancia,
     title: 'La importancia de un Blog en una empresa',
     review: 'Con la llegada de los Blogs, la producción de la información dejo de ser exclusiva de los grandes medios y llego al alcance de cualquier persona o empresa, esto generó la aparición de micro-medios donde las empresas y las personas producen contenido dirigido a temas tan específicos que los medios masivos no tienen la capacidad de competir. ...',
     link: 'https://proinsa-tech.blogspot.com/2023/07/la-importancia-de-un-blog-en-una-empresa.html'
   },
-  {
-    image: deporte,
-    title: 'Salud Bucodental y rendimiento deportivo',
-    review: 'Artículo en construcción ...',
-    link: 'https://proinsa-tech.blogspot.com/2023/07/la-importancia-de-un-blog-en-una-empresa.html'
-  },
+  
   
 ]
 
