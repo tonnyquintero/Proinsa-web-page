@@ -32,7 +32,7 @@ const Footer = () => {
       <p>Siguenos en nuestras redes sociales</p>
       <div className={styles.footer_socials}>
         <a href='https://www.facebook.com/profile.php?id=100094323549257' target='blank'><BsFacebook /></a>
-        <a href='https://www.instagram.com/proinsa.clinica.odontologica/' target='blank'><FiInstagram /></a>
+        <a href='https://www.instagram.com/clinica.proinsa/' target='blank'><FiInstagram /></a>
         <a href='https://www.linkedin.com/company/proinsa-clínica-odontológica/' target='blank'><BsLinkedin /></a>
       </div>
 

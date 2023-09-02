@@ -14,7 +14,7 @@ const HeaderSocials = () => {
       <div className={styles.header_socials}>
         <ul className={styles.social_icons}>
           <li><a className='fa' href='https://www.linkedin.com/company/proinsa-clínica-odontológica/' target='blank'><BsLinkedin size={40} /></a></li>
-          <li><a className='fa' href='https://www.instagram.com/proinsa.clinica.odontologica/' target='blank'><BsInstagram size={40} /></a></li>
+          <li><a className='fa' href='https://www.instagram.com/clinica.proinsa/' target='blank'><BsInstagram size={40} /></a></li>
           <li><a className='fa' href='https://www.facebook.com/profile.php?id=100094323549257' target='blank'><BsFacebook size={45} /></a></li>
         </ul>
     </div>
