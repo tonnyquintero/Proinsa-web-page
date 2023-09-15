@@ -3,6 +3,7 @@ import React from 'react'
 import styles from '../../styles/blog.module.css';
 import Image from 'next/image';
 import importancia from '../../assets/post n1.png';
+import embarazo from '../../assets/embarazo.png';
 import deporte from '../../assets/post n2.png';
 
 
@@ -18,6 +19,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: embarazo,
+    title: 'Cuidado Bucal Durante el Embarazo',
+    review: 'El embarazo es un período emocionante en la vida de una mujer, lleno de cambios en su cuerpo y en su estilo de vida. Mientras se prepara para dar la bienvenida a su nuevo bebé, es importante que no descuide su salud bucal, ya que esta también juega un papel fundamental en su bienestar general y en el desarrollo saludable del bebé...',
+    link: 'https://proinsa-tech.blogspot.com/2023/09/cuidado-bucal-durante-el-embarazo.html'
+  },
   {
     image: deporte,
     title: 'Salud Bucodental y rendimiento deportivo',
