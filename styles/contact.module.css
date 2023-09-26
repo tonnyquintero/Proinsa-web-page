@@ -252,6 +252,7 @@
         position: relative;
         width: 300px;
         margin-top: 35px;
+        color: #00BFFF;
         background-color: azure;
     }
     .inputBox input {
