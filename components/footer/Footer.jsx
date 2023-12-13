@@ -19,8 +19,10 @@ const Footer = () => {
   return (
     <footer className={styles['footer']}>
       <Image src={logo} width={150} height={80} alt='logo' />
-      <p>Estamos ubicados en carrera 52 N 95 - 91 San Isidro <br>
-      </br>Te esperamos desde las 7 a.m. en adelante</p>
+      <p>Estamos ubicados en carrera 52 N 95 - 91 San Isidro </p>
+      <p>Horario: Lunes a Viernes 7 am a 7 pm<br>
+      </br>Sábados de 7 am a 2 pm</p>
+      
 
       <ul className={styles['permalinks']}>
         <li><a href='#'>Inicio</a></li>

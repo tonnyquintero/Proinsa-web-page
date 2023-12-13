@@ -1,7 +1,7 @@
 .header {
-    height: 60vh;
-    padding-top: 2rem;
+    height: 59vh;
     overflow: hidden;
+    padding-bottom: 2rem;
 }
 
 .titulo {
@@ -9,6 +9,16 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: 	#00BFFF
+}
+
+.bienvenidos {
+
+    color: black;
+    z-index: 99;
+}
+
+.acceso {
+    padding-left: 3rem;
 }
 
 
@@ -34,7 +44,7 @@
 }
 
 .header_socials {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
@@ -45,7 +55,7 @@
 } 
 
 .header_socials2 {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
@@ -90,156 +100,7 @@
 
 }
 
-.social_icons li a::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: -18px;
-    height: 20px;
-    width: 100%;
-    background: #e5e5e5;
-    transition: 0.5s;
-    transform: skew(120deg)  rotate(0deg);
-}
 
-.social_icons li a:hover {
-    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
-}
-
-.social_icons li a:hover .fa {
-    color: #ffff;
-}
-
-.social_icons li:hover:nth-child(1) a {
-    background-color: white;
-}
-
-.social_icons li:hover:nth-child(1) a::before {
-    background-color: #0e76a8;
-}
-
-.social_icons li:hover:nth-child(1) a::after {
-    background-color: #0e76a8;
-}
-
-.social_icons li:hover:nth-child(2) a {
-    background: white;
-}
-
-.social_icons li:hover:nth-child(2) a::before {
-    background: linear-gradient(2deg,  #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-}
-
-.social_icons li:hover:nth-child(2) a::after {
-    background: #5851db;
-}
-
-
-
-
-.social_icons li:hover:nth-child(3) a {
-    background-color: white;
-}
-
-.social_icons li:hover:nth-child(3) a::before {
-    background-color: #3b5998;
-}
-
-.social_icons li:hover:nth-child(3) a::after {
-    background-color: #3b5998;
-}
-
-
-
-
-.social_icons2 li a {
-    position: relative;
-    display: block;
-    width: 80px;
-    height: 80px;
-    color: #555;
-    background: #fff;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    box-shadow: -20px 20px 10px rgb(0, 0, 0 / 50%);
-    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
-}
-
-.social_icons2 li a::before {
-    content: "";
-    position: absolute;
-    top: 19px;
-    left: -34px;
-    height: 100%;
-    width: 35px;
-    background: #b2b2b2;
-    transition: 0.5s;
-
-}
-
-.social_icons2 li a::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: -18px;
-    height: 20px;
-    width: 100%;
-    background: #e5e5e5;
-    transition: 0.5s;
-    transform: skew(120deg)  rotate(0deg);
-}
-
-.social_icons2 li a:hover {
-    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
-}
-
-.social_icons2 li a:hover .fa {
-    color: #ffff;
-}
-
-
-
-.social_icons2 li:hover:nth-child(1) a {
-    background-color: white;
-}
-
-.social_icons2 li:hover:nth-child(1) a::before {
-    background-color: #00bb2d;
-}
-
-.social_icons2 li:hover:nth-child(1) a::after {
-    background-color: #00bb2d;
-}
-
-.social_icons2 li:hover:nth-child(2) a {
-    background-color: white;
-}
-
-.social_icons2 li:hover:nth-child(2) a::before {
-    background-color: #BA55D3;
-}
-
-.social_icons2 li:hover:nth-child(2) a::after {
-    background-color: #BA55D3;
-}
-
-
-.social_icons2 li:hover:nth-child(3) a {
-    background-color: white;
-}
-
-.social_icons2 li:hover:nth-child(3) a::before {
-    background-color: #c71610;
-}
-
-.social_icons2 li:hover:nth-child(3) a::after {
-    background-color: #c71610;
-}
 
 .me {
     width: 39rem;
@@ -254,6 +115,30 @@
 
 .me img {
     height: 71%;
+}
+
+.flexi {
+    display: flex;
+}
+
+.hcuatro {
+    color: #00BFFF;
+    padding: 1em;
+    font-size: 2rem;
+}
+
+.btnDownload {
+
+    height: 3em;
+    margin-top: 1.5em;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: var(--transition);
+    background-color: #00BFFF;
 }
 
 .btn {
