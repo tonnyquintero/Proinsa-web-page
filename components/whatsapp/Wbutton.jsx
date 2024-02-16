@@ -8,7 +8,7 @@ const Wbutton = () => {
   return (
     <div className={styles['boton']}>
         <div className={styles['divMessage']}><p>Necesitas Orientación? <br /> Habla con nosotros</p></div>
-        <button className={styles['button']}><a  href='https://api.whatsapp.com/send?phone=573172388777' target='blank'><BsWhatsapp size={75} /></a> </button>
+        <button className={styles['button']}><a  href='https://api.whatsapp.com/send?phone=573001185621' target='blank'><BsWhatsapp size={75} /></a> </button>
     </div>
   )
 }
