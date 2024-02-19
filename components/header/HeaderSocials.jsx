@@ -20,7 +20,7 @@ const HeaderSocials = () => {
     </div>
     <div className={styles.header_socials2}>
         <ul className={styles.social_icons2}>
-          <li><a className='fa' href='https://api.whatsapp.com/send?phone=573172388777' target='blank'><BsWhatsapp size={40} /></a></li>
+          <li><a className='fa' href='https://api.whatsapp.com/send?phone=573168772932' target='blank'><BsWhatsapp size={40} /></a></li>
           <li><a className='fa' href='https://www.google.com/maps/place/Proinsa+San+Isidro/@6.2882591,-75.5627067,15z/data=!4m6!3m5!1s0x8e44292f6403a685:0x2835864fd80e665c!8m2!3d6.2882591!4d-75.5627067!16s%2Fg%2F11fkbyx8tn?entry=ttu' target='blank'><ImLocation size={40} /></a></li>
           <li><a className='fa' href='mailto:proinsacomunicaciones@gmail.com' target='blank'><MdOutlineEmail size={45} /></a></li>
         </ul>
