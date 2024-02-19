@@ -19,9 +19,9 @@ const Footer = () => {
   return (
     <footer className={styles['footer']}>
       <Image src={logo} width={150} height={80} alt='logo' />
-      <p>Estamos ubicados en carrera 52 N 95 - 91 San Isidro </p>
+      <p>Estamos ubicados en la carrera 52 N 95 - 91 Aranjuez, San Isidro, Medellín </p>
       <p>Horario: Lunes a Viernes 7 am a 7 pm<br>
-      </br>Sábados de 7 am a 2 pm</p>
+      </br>Sábados de 7 am a 12 pm</p>
       
 
       <ul className={styles['permalinks']}>
