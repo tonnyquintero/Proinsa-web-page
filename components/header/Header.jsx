@@ -7,7 +7,7 @@ import styles from '../../styles/header.module.css';
 const Header = () => {
   return (
     <>
-    
+      
       <div className={styles['header']}>
 
         <Image className={styles['sonrisa1']} src={Hero} width={1500} height={400} alt='logo' />

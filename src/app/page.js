@@ -13,21 +13,12 @@ import Wbutton from '../../components/whatsapp/Wbutton';
 import Footer from '../../components/footer/Footer';
 import styles from '../app/page.module.css';
 
-export const metadata = {
-  title: 'Proinsa Clínica Odontológica',
-  description: 'Clínica Odontológica ubicada en San Isidro, medellin, Colombia',
-}
 
 export default function Home() {
 
 
   return ( 
     <>
-    <Head>
-        <title>Proinsa Clínica Odontológica</title>
-        <meta name="description" content="Clínica Odontológica ubicada en San Isidro, Aranjuez, medellin, Colombia" />
-        <meta name="facebook-domain-verification" content="n56h19h4kooawxa1w749rcvl3gg0em" />
-      </Head>
     <Nav />
     <Wbutton />
     <main className={styles.main}>
