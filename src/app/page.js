@@ -26,6 +26,7 @@ export default function Home() {
     <Head>
         <title>Proinsa Clínica Odontológica</title>
         <meta name="description" content="Clínica Odontológica ubicada en San Isidro, medellin, Colombia" />
+        <meta name="facebook-domain-verification" content="n56h19h4kooawxa1w749rcvl3gg0em" />
       </Head>
     <Nav />
     <Wbutton />
