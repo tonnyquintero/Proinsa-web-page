@@ -28,7 +28,6 @@ export default function Home() {
     <Services />
     <Acceso />
     <NoSSR2 />
-    <Liga />
     <NoSSR />
     <Footer />
     </>
