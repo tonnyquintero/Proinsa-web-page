@@ -1,5 +1,5 @@
 .header {
-    height: 59vh;
+    height: 69vh;
     overflow: hidden;
     padding-bottom: 2rem;
 }
@@ -32,10 +32,11 @@
 }
 
 .cta {
-    margin-top: 4rem;
     display: flex;
     gap: 5rem;
     justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1em;
 }
 
 
@@ -144,18 +145,18 @@
 .btn {
     width: max-content;
     display: inline-block;
-    color: #00BFFF;
+    color: #396afc;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid #00BFFF;
+    border: 1px solid #396afc;
     transition: var(--transition);
     background-color: white;
   }
   
   .btn-primary {
-    background: #00BFFF;
+    background: #396afc;
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -188,6 +189,15 @@
       height: 23vh;  
       padding-top: 0.5rem;
     }
+
+    .cta {
+        display: table-caption;
+        gap: 5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 1em;
+    }
+
     .sonrisa1 {
         display: none;
     }

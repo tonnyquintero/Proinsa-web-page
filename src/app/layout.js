@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="en">
       <head>
-      <title>Proinsa Clínica Odontológica</title>
-        <meta name="description" content="Clínica Odontológica ubicada en San Isidro, Aranjuez, medellin, Colombia" />
+      <title>Salazar Brothers Services</title>
+        <meta name="description" content="Salazar Brothers Services" />
         <meta name="facebook-domain-verification" content="n56h19h4kooawxa1w749rcvl3gg0em" />
       </head>
       <body className={inter.className}>{children}</body>

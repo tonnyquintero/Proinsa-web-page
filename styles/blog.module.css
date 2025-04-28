@@ -6,7 +6,7 @@
 }
 
 .h2 {
-    color: #00BFFF;
+    color: #396afc;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -38,14 +38,14 @@
 }
 
 .client_name {
-    color: #00BFFF;
+    color: #396afc;
     font-weight: 700;
     font-size: x-large;
 }
 
 .btn_blog {
     width: max-content;
-    background: #00BFFF;
+    background: #396afc;
     display: inline-block;
     color: white;
     font-weight: bold;
@@ -66,7 +66,7 @@
 
 .btn_blog:hover {
     background: white;
-    color: #00BFFF;
+    color: #396afc;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {

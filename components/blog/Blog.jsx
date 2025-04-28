@@ -1,81 +1,80 @@
-'use client'
-import React from 'react'
-import styles from '../../styles/blog.module.css';
-import Image from 'next/image';
-import importancia from '../../assets/post n1.png';
-import embarazo from '../../assets/embarazo.png';
-import deporte from '../../assets/post n2.png';
-
-
+"use client";
+import React from "react";
+import styles from "../../styles/blog.module.css";
+import Image from "next/image";
+import importancia from "../../assets/random3.jpg";
+import embarazo from "../../assets/random1.jpg";
+import deporte from "../../assets/random2.jpg";
 
 // import Swiper core and required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
+import "swiper/css";
+import "swiper/css/pagination";
 
 const data = [
   {
     image: embarazo,
-    title: 'Cuidado Bucal Durante el Embarazo',
-    review: 'El embarazo es un período emocionante en la vida de una mujer, lleno de cambios en su cuerpo y en su estilo de vida. Mientras se prepara para dar la bienvenida a su nuevo bebé, es importante que no descuide su salud bucal, ya que esta también juega un papel fundamental en su bienestar general y en el desarrollo saludable del bebé...',
-    link: 'https://proinsa-tech.blogspot.com/2023/09/cuidado-bucal-durante-el-embarazo.html'
-  },
-  {
-    image: deporte,
-    title: 'Salud Bucodental y rendimiento deportivo',
-    review: 'Querida comunidad, sean bienvenidos(as) a nuestro espacio informativo, el blog recomendado por nuestros profesionales, a lo largo de este trayecto que apenas empieza traeremos a la mesa temas relacionados a la salud bucodental y algo más. Siendo difusores de la actividad física para la salud nuestro tópico trata sobre la salud bucodental y el rendimiento deportivo...',
-    link: 'https://proinsa-tech.blogspot.com/2023/08/salud-bucodental-y-rendimiento-deportivo.html'
+    title: "– Sarah Mitchell",
+    review:
+      "I hired the Salazar Brothers to paint the interior of my business and I couldn’t be happier. The team was efficient, neat, and very respectful of the space. The finish is flawless and completely refreshed the place. Excellent service from start to finish...",
+    link: "https://proinsa-tech.blogspot.com/2023/09/cuidado-bucal-durante-el-embarazo.html",
   },
   {
     image: importancia,
-    title: 'La importancia de un Blog en una empresa',
-    review: 'Con la llegada de los Blogs, la producción de la información dejo de ser exclusiva de los grandes medios y llego al alcance de cualquier persona o empresa, esto generó la aparición de micro-medios donde las empresas y las personas producen contenido dirigido a temas tan específicos que los medios masivos no tienen la capacidad de competir. ...',
-    link: 'https://proinsa-tech.blogspot.com/2023/07/la-importancia-de-un-blog-en-una-empresa.html'
+    title: "– Emily Johnson",
+    review:
+      "The team from Salazar Brothers arrived right on time after a big snowstorm and cleared my driveway and sidewalks perfectly. They were professional, careful, and very fast. You can really tell they care about doing a great job. I will definitely hire them again whenever I need snow removal...",
+    link: "https://proinsa-tech.blogspot.com/2023/08/salud-bucodental-y-rendimiento-deportivo.html",
   },
-  
-  
-]
+  {
+    image: deporte,
+    title: "– Michael Anderson",
+    review:
+      "I’m thrilled with the carpentry work they did at my home. From the very beginning, they showed incredible attention to detail and offered custom, high-quality solutions. My new deck looks absolutely amazing, just the way I dreamed it. Highly recommend them...",
+    link: "https://proinsa-tech.blogspot.com/2023/07/la-importancia-de-un-blog-en-una-empresa.html",
+  },
+];
 
 const Blog = () => {
   return (
-    <section id='testimonials'>
-      <h5 className={styles['h5']}>Últimas Actualizaciones</h5>
-      <h2 className={styles['h2']}>Blog</h2>
+    <section id="testimonials">
+      <h5 className={styles["h5"]}>Our reviews</h5>
+      <h2 className={styles["h2"]}>Testimonials</h2>
 
-      <Swiper className={styles['testimonial_container']}
-        modules={[ Navigation, Pagination ]}
+      <Swiper
+        className={styles["testimonial_container"]}
+        modules={[Navigation, Pagination]}
         spaceBetween={40}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-
       >
-        {
-          data.map(({image, title, review, link}, index) => {
-            return (
-              <SwiperSlide key={index} className={styles['testimonial']}>
-                <div className={styles["client_avatar"]}>
-                  <Image src={image} alt={title} />
-                </div>
-                <h5 className={styles['client_name']}>{title}</h5>
-                  <small className={styles['client_review']}>
-                    {review}
-                  </small>
-                  <a href={link} target="_blank" rel='noreferrer' className={styles['btn_blog']}>Visitar</a>
-              </SwiperSlide>
-            )
-          } )
-        }
-
+        {data.map(({ image, title, review, link }, index) => {
+          return (
+            <SwiperSlide key={index} className={styles["testimonial"]}>
+              <div className={styles["client_avatar"]}>
+                <Image src={image} alt={title} />
+              </div>
+              <h5 className={styles["client_name"]}>{title}</h5>
+              <small className={styles["client_review"]}>{review}</small>
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                className={styles["btn_blog"]}
+              >
+                Visit
+              </a>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
-
     </section>
-  )
-}
+  );
+};
 
 export default Blog;

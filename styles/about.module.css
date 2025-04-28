@@ -11,7 +11,7 @@
 }
 
 .titulin {
-    color: #00BFFF;
+    color: #396afc;
     text-align: center;
     padding-bottom: 3rem;
 }
@@ -30,14 +30,14 @@
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
-    background: #00BFFF;
+    background: #396afc;
     color: var(--color-bg);
 }
 
 .about_button:hover {
     background: white;
-    color: #00BFFF;
-    border-color: #00BFFF;
+    color: #396afc;
+    border-color: #396afc;
 }
 
 .about_me {
@@ -81,12 +81,12 @@
 
 .about_card {
     background: white;
-    border: 1px solid #00BFFF;
+    border: 1px solid #396afc;;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    color: #00BFFF;
+    color: #396afc;;
     width: 16rem;
     height: 14rem;
 }
@@ -111,7 +111,7 @@
     font-size: 1.5rem;
     margin-top: 1rem;
     font-weight: 800;
-    color: #00BFFF
+    color: #396afc;
 }
 
 .about_content p {

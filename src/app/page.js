@@ -26,7 +26,6 @@ export default function Home() {
     <NoSSR3 />
     </main>
     <Services />
-    <Acceso />
     <NoSSR2 />
     <NoSSR />
     <Footer />
